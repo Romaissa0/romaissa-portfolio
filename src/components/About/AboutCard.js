@@ -8,37 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Romaissa Bellahcene</span>{" "}
+            from <span className="purple">Algiers, Algeria</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
+            I’m currently an undergraduate{" "}
+            <span className="purple"> Mathematics student</span>  with a practical interest in software development, data science, and AI.{" "}
             <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            <br />My mathematical background has given me a strong foundation in{" "}
+            <span className="purple">logical reasoning </span>,<span className="purple"> statistics</span>, and <span className="purple">problem-solving</span>, which I’ve applied through projects in <span className="purple">Python</span>, <span className="purple">machine learning</span>, <span className="purple">MATLAB</span>, <span className="purple">SQL</span>, <span className="purple">numerical methods</span>, and <span className="purple">web development</span>.
+            
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I approach new problems by understanding them carefully, breaking them into manageable parts, and building reliable solutions. I’m used to learning independently and adapting to new tools when a project requires it. I’m looking to bring this combination of analytical thinking and technical skills into a professional environment where I can contribute to real projects and continue developing as an engineer.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Exploring Data & Machine Learning 📊
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Learning & Building New Things 💡
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Consistency over perfection !"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Romaissa</footer>
         </blockquote>
       </Card.Body>
     </Card>

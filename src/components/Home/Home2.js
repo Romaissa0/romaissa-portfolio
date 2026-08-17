@@ -13,38 +13,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I study Mathematics, but I’ve always been curious about what I can do with it beyond paper and formulas. That curiosity led me into programming, data science, machine learning, and software development.
               <br />
               <br />
-              I’m proficient in
+              I learn by building, experimenting, and sometimes breaking things before figuring out how to fix them.
+              <br />
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Python · Data Science · Machine Learning · Software{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              
               <br />
-              <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
