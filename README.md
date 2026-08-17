@@ -1,6 +1,6 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  #  — Personal Portfolio<br/>
+  <a href="https://soumyajit.vercel.app/" target="_blank">Romaissa</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -8,69 +8,48 @@
 
 <br/>
 
-<center>
+Welcome to my personal portfolio.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+I'm an undergraduate Mathematics student interested in programming, data science, machine learning, and software development. This portfolio brings together some of my projects, skills, and experience.
 
-</center>
+## About Me
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+I enjoy combining mathematics and programming to solve problems and build practical projects. My work includes projects in Python, machine learning, statistics, MATLAB, SQL, numerical methods, and web development.
 
-## TL;DR
+I'm continuously learning and looking for opportunities to apply my skills to real-world problems.
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## Skills
 
-## Built With
+- Python
+- Machine Learning
+- Data Analysis
+- Statistics
+- MATLAB
+- SQL
+- HTML / CSS / JavaScript
+- React
+- Git & GitHub
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+## Projects
 
-This project was built using these technologies.
+Some of the projects I've worked on include:
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- Machine Learning & Data Analysis
+- Numerical Methods
+- Statistical Analysis
+- Regression & Optimization
+- Python Projects
+- Web Development
 
-## Features
+## Contact
 
-**📖 Multi-Page Layout**
+Feel free to connect with me through the links provided on my portfolio.
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Credits
 
-**📱 Fully Responsive**
+This portfolio was originally based on the work of **Soumyajit4419**.
 
-## Getting Started
+Original repository:
+https://github.com/soumyajit4419/Portfolio
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+The project has been modified and customized for my personal portfolio.
