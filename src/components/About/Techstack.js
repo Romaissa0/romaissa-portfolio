@@ -2,42 +2,38 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { SiNextdotjs, SiSolidity } from "react-icons/si";
 import { FaRust } from "react-icons/fa";
-import Go from "../../Assets/TechIcons/go.svg";
 import C from "../../Assets/TechIcons/C++.svg";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
+import stats from "../../Assets/TechIcons/stats.svg";
+import statistics from "../../Assets/TechIcons/statistics.svg";
+import blender from "../../Assets/TechIcons/blender.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
-import HaskellIcon from "../../Assets/TechIcons/Haskell.svg";
 import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
-import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
-import Firebase from "../../Assets/TechIcons/Firebase.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
-import Docker from "../../Assets/TechIcons/Docker.svg";
-import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
-import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
-import Redux from "../../Assets/TechIcons/Redux.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
-import MUI from "../../Assets/TechIcons/MUI.svg";
-import Postman from "../../Assets/TechIcons/Postman.svg";
-import AWS from "../../Assets/TechIcons/AWS.svg";
-import Kafka from "../../Assets/TechIcons/Kafka.svg";
-
+//import matlab from "../../Assets/TechIcons/matlab.svg";
+import pandas from "../../Assets/TechIcons/pandas.svg";
+import numpy from "../../Assets/TechIcons/numpy.svg";
+import excel from "../../Assets/TechIcons/excel.svg";
+import github from "../../Assets/TechIcons/github.svg";
+import ai from "../../Assets/TechIcons/ai.svg";
+import html from "../../Assets/TechIcons/html.svg";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <img src={C} alt="C++" />
-        <div className="tech-icons-text">C</div>
+        <div className="tech-icons-text">C++</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Javascript} alt="javascript" />
         <div className="tech-icons-text">Javascript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
+        <img src={Javascript} alt="javascript" />
         <div className="tech-icons-text">Javascript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -53,42 +49,42 @@ function Techstack() {
         <div className="tech-icons-text">MATLAB</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Mongo} alt="mongoDb" />
+        <img src={statistics} alt="statistics" />
         <div className="tech-icons-text">Linear Regression</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Redux} alt="redux" />
+        <img src={stats} alt="stats" />
         <div className="tech-icons-text">R-Stats</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs fontSize={"24px"} />
-        <div className="tech-icons-text">HTML</div>
+        <div className="tech-icons-text">scikit-learn</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Git} alt="git" />
         <div className="tech-icons-text">Git</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Firebase} alt="firebase" />
+        <img src={github} alt="github" />
         <div className="tech-icons-text">GitHub</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Redis} alt="redis" />
+        <img src={ai} alt="ai" />
         <div className="tech-icons-text">LLMs</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Docker} alt="docker" />
+        <img src={excel} alt="excel" />
         <div className="tech-icons-text">Excel</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Kubernates} alt="kubernetes" />
-        <div className="tech-icons-text">scikit-learn</div>
+        <img src={html} alt="html" />
+        <div className="tech-icons-text">HTML</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={SQL} alt="SQL" />
-        <div className="tech-icons-text">Postgresql</div>
+        <div className="tech-icons-text">SQL</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -96,11 +92,11 @@ function Techstack() {
         <div className="tech-icons-text">Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
+        <img src={Java} alt="java" />
         <div className="tech-icons-text">Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={HaskellIcon} alt="haskell" />
+        <img src={pandas} alt="pandas" />
         <div className="tech-icons-text">pandas</div>
       </Col>
 
@@ -109,13 +105,9 @@ function Techstack() {
         <div className="tech-icons-text">Tailwind CSS</div>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={MUI} alt="mui" />
-        <div className="tech-icons-text">Material UI</div>
-      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Postman} alt="Postman" />
+        <img src={numpy} alt="numpy" />
         <div className="tech-icons-text">Numpy</div>
       </Col>
 
@@ -125,7 +117,7 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={AWS} alt="Postman" className="tech-icon-images" />
+        <img src={blender} alt="blender" className="tech-icon-images" />
         <div className="tech-icons-text">Blender</div>
       </Col>
     </Row>
