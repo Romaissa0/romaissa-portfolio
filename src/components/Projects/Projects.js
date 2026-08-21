@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import nade from "../../Assets/Projects/MATLAB Programming.jpg";
+import car from "../../Assets/Projects/car-system.jpg";
+import discount from "../../Assets/Projects/discount.jpg";
+import security from "../../Assets/Projects/security.jpg";
+import co from "../../Assets/Projects/Matlab Projects.jpg";
+import dm from "../../Assets/Projects/Data Mining.jpg";
 
 function Projects() {
   return (
@@ -23,70 +23,65 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={co}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Numerical-Optimization-in-MATLAB"
+              description="MATLAB implementations of classical optimization algorithms with numerical experiments, convergence analysis, and visualization."
+              ghLink="https://github.com/Romaissa0/Numerical-Optimization-in-MATLAB"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={dm}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Retail-Customer-Profiling-Dimensionality-Reduction"
+              description="A complete Data Mining project applying Principal Component Analysis (PCA), Correspondence Analysis (CA), and Multiple Correspondence Analysis (MCA) to explore customer behavior, reduce dimensionality, and uncover hidden patterns in retail data through statistical analysis and visualization."
+              ghLink="https://github.com/Romaissa0/Retail-Customer-Profiling-Dimensionality-Reduction"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={security}
+              isBlog={false}
+              title="Cybersecurity-Failure-Rate-Estimation"
+              description="Statistical inference project estimating failure and attack rates in secure systems using Maximum Likelihood Estimation (MLE), Method of Moments (MoM), unbiased estimation, and Total Variation estimation, with optimality analysis and security-focused interpretation."
+              ghLink="https://github.com/Romaissa0/Cybersecurity-Failure-Rate-Estimation"
+                            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={nade}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Numerical-Methods-in-MATLAB"
+              description="MATLAB implementations of classical numerical methods for solving ordinary differential equations, including Euler, Runge–Kutta, Adams methods, and error analysis."
+              ghLink="https://github.com/Romaissa0/Numerical-Methods-in-MATLAB"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={discount}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="discount-optimization"
+              description="Regression-based analytics project that predicts sales performance under different discount strategies using statistical modeling, feature engineering, and model evaluation to support data-driven pricing decisions."
+              ghLink="https://github.com/Romaissa0/discount-optimization"
+             />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={car}
+              isBlog={false}
+              title="Automated-Vehicle-Storage-System"
+              description="Object-oriented garage automation system that simulates secure vehicle storage and retrieval using Python. The project applies core OOP principles including inheritance, polymorphism, abstraction, and composition to model a smart residential parking solution."
+              ghLink="https://github.com/Romaissa0/Automated-Vehicle-Storage-System"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
